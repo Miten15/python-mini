@@ -1,0 +1,393 @@
+[
+  {
+    "timestamp": "2025-04-21T02:26:49.312016Z",
+    "rule": {
+      "level": 8,
+      "description": "This is a test alert for Wazuh integration",
+      "id": "1008",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "TEST_ALERT",
+      "src_ip": "192.168.1.100",
+      "dst_ip": "10.0.0.1",
+      "severity": 8
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2025-04-21T02:27:04.870370Z",
+    "rule": {
+      "level": 8,
+      "description": "This is a test alert for Wazuh integration",
+      "id": "1008",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "TEST_ALERT",
+      "src_ip": "192.168.1.100",
+      "dst_ip": "10.0.0.1",
+      "severity": 8
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-07T22:16:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 172.16.2.4 to 172.16.2.201 - 12 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "172.16.2.4",
+      "dst_ip": "172.16.2.201",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-07T22:46:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 172.16.2.4 to 172.16.2.201 - 10 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "172.16.2.4",
+      "dst_ip": "172.16.2.201",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-07T23:41:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 172.16.2.4 to 172.16.2.201 - 11 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "172.16.2.4",
+      "dst_ip": "172.16.2.201",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:18:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 172.16.2.4 to 172.16.2.201 - 11 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "172.16.2.4",
+      "dst_ip": "172.16.2.201",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:06:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 192.151.146.130 to 172.16.2.4 - 42 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "192.151.146.130",
+      "dst_ip": "172.16.2.4",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:07:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 192.151.146.130 to 172.16.2.4 - 21 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "192.151.146.130",
+      "dst_ip": "172.16.2.4",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:08:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 192.151.146.130 to 172.16.2.4 - 18 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "192.151.146.130",
+      "dst_ip": "172.16.2.4",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:09:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 192.151.146.130 to 172.16.2.4 - 18 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "192.151.146.130",
+      "dst_ip": "172.16.2.4",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:38:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 192.151.146.130 to 172.16.2.4 - 28 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "192.151.146.130",
+      "dst_ip": "172.16.2.4",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:39:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 192.151.146.130 to 172.16.2.4 - 52 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "192.151.146.130",
+      "dst_ip": "172.16.2.4",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:40:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 192.151.146.130 to 172.16.2.4 - 12 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "192.151.146.130",
+      "dst_ip": "172.16.2.4",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:42:00.000000Z",
+    "rule": {
+      "level": 7,
+      "description": "Port scan detected from 192.151.146.130 to 172.16.2.4 - 104 unique ports in 60s",
+      "id": "1007",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "PORT_SCAN",
+      "src_ip": "192.151.146.130",
+      "dst_ip": "172.16.2.4",
+      "severity": 7
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-07T22:16:44.149332Z",
+    "rule": {
+      "level": 6,
+      "description": "Suspicious long DNS query from 172.16.2.201: _ldap._tcp.Default-First-Site-Name._sites.gc._msdcs.no-calculate.net (length: 68)",
+      "id": "1006",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "DNS_TUNNELING",
+      "src_ip": "172.16.2.201",
+      "dst_ip": "172.16.2.4",
+      "severity": 6
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-07T23:41:25.138686Z",
+    "rule": {
+      "level": 6,
+      "description": "Suspicious long DNS query from 172.16.2.201: _ldap._tcp.Default-First-Site-Name._sites.No-Calculate-DC.no-calculate.net (length: 74)",
+      "id": "1006",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "DNS_TUNNELING",
+      "src_ip": "172.16.2.201",
+      "dst_ip": "172.16.2.4",
+      "severity": 6
+    },
+    "location": "pcap_analyzer"
+  },
+  {
+    "timestamp": "2018-12-08T01:18:26.380096Z",
+    "rule": {
+      "level": 6,
+      "description": "Suspicious long DNS query from 172.16.2.201: _ldap._tcp.Default-First-Site-Name._sites.No-Calculate-DC.no-calculate.net (length: 74)",
+      "id": "1006",
+      "pcap_analyzer": true
+    },
+    "agent": {
+      "name": "pcap_analyzer",
+      "id": "000"
+    },
+    "manager": {
+      "name": "pcap_analyzer"
+    },
+    "data": {
+      "alert_type": "DNS_TUNNELING",
+      "src_ip": "172.16.2.201",
+      "dst_ip": "172.16.2.4",
+      "severity": 6
+    },
+    "location": "pcap_analyzer"
+  }
+]

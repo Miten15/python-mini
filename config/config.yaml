@@ -1,0 +1,58 @@
+pcap:
+  # Default timeout for packet capture operations in seconds
+  timeout: 300
+
+detection:
+  port_scan:
+    # Number of unique ports that trigger a port scan alert
+    threshold: 10
+    # Time window for port scan detection in seconds
+    time_window: 60
+  
+  dns:
+    # Maximum allowed length for a DNS query before flagging
+    max_query_length: 50
+    # Number of DNS queries per minute from same source to flag as suspicious
+    query_rate_threshold: 30
+
+  http:
+    # List of suspicious SQL injection patterns to check in HTTP requests
+    sql_patterns:
+      - "UNION SELECT"
+      - "OR 1=1"
+      - "DROP TABLE"
+      - "';--"
+      - "'; EXEC"
+    # List of suspicious user agents to check
+    suspicious_user_agents:
+      - "zgrab"
+      - "masscan"
+      - "sqlmap"
+      - "nikto"
+
+logging:
+  # Directory to store logs
+  log_dir: "logs"
+  # Log levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+  # Maximum log file size in MB before rotation
+  max_size_mb: 10
+  # Number of backup files to keep
+  backup_count: 5
+
+wazuh:
+  enabled: true
+  # Wazuh server API details
+  api:
+    host: "127.0.0.1"
+    port: 55000
+    user: "wazuh"
+    password: "wazuh"
+    # Change to https for production environments
+    protocol: "http"
+  # Minimum severity level to forward to Wazuh (1-10)
+  min_severity: 3
+  
+  # Local file output for alerts when Wazuh server is not available
+  local_fallback: true
+  local_alerts_file: "logs/wazuh_alerts.json"
